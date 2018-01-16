@@ -34,6 +34,8 @@ def main():
 
         plt.plot(test_dates, rate_list)
         fig_name = f"{date_dict['START_DATE']}_TO_{date_dict['END_DATE']}.jpg"
+        plt.xlabel('DATE', fontsize=18)
+        plt.ylabel('PRICE (USD)', fontsize=16)
         plt.savefig(fig_name)
 
         plt.show()
