@@ -1,4 +1,6 @@
 # Fetches the Bitcoin rate from a given range of date. plot and saves it in same directory.
+# Author : AMiT Yadav
+# Mail for any suggestions or bug : theamitcoder@gmail.com
 
 import json
 import os
